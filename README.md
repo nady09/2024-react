@@ -22,6 +22,39 @@
 
 ## Arquivos
 
+### package.json
+```json
+{
+  "name": "ola-mundo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
+  }
+}
+
+```
+
 ### .eslintrc.cjs
 ```js
 module.exports = {
@@ -159,8 +192,8 @@ export default defineConfig({
 const App = () => {
   return (
     <div>
-      <h1>Welcome to my app</h1>
-      <button>I'm a button</button>
+      <h1>Bem vindo ao mundo React</h1>
+      <button>eu sou um botão html</button>
     </div>
   );
 }
