@@ -11,8 +11,9 @@
 
 ## Tarefas
 1. Fork desse respositório para sua conta github. Assim posso acompanhar quem esta fazendo.
-2. No seu repositório, crie os arquivos abaixo
-3. 
+2. No seu repositório, crie os arquivos abaixos
+3. No vercel, crie um novo projeto importando o seu repositório
+4. Siga as mudanças do [learn react](https://react.dev/learn) e acompanhe a cada _commit_ as modificações no vercel
 
 ## Links
 - React
